@@ -1,0 +1,170 @@
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .toggel {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    nav ul {
+        display: none;
+    }
+
+    nav .toggel:hover+ul {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        background-color: black;
+        border-radius: 0px 5px;
+        position: absolute;
+        left: 4px;
+        top: 80px;
+        width: 100%;
+    }
+
+    nav ul li {
+        padding-top: 10px;
+    }
+
+    .information {
+        flex-direction: column;
+    }
+
+    .information .simone-Olivia {
+        width: 100%;
+    }
+
+    .information .simone-info {
+        width: 100%;
+    }
+    .send_us .ADDRESS {
+        width: 100%;
+    }
+    .send_us .NOTE{
+        width: 100%;
+    }
+    .send_us .NOTE input{
+        width: 100%;
+    }
+
+}
+
+@keyframes typing {
+    0% {
+        content: '|';
+    }
+
+    5% {
+        content: 'D|';
+    }
+
+    10% {
+        content: 'De|';
+    }
+
+    20% {
+        content: 'Dev|';
+    }
+
+    30% {
+        content: 'Devlo|';
+    }
+
+    40% {
+        content: 'Develope|';
+    }
+
+    50% {
+        content: 'Developer|';
+    }
+
+    60% {
+        content: 'Develope|';
+    }
+
+    70% {
+        content: 'Devlo|';
+    }
+
+    80% {
+        content: 'Dev|';
+    }
+
+    90% {
+        content: 'D|';
+    }
+
+    100% {
+        content: '|';
+    }
+
+}
+
+@media screen and (max-width:786px) {
+    .my-services {
+        width: 100%;
+    }
+    .my-cv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .My-Education {
+        width: 100%;
+    }
+
+    .My-Experience {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .skils .box-item{
+        width: 100%;
+    }
+    .client{ 
+
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+    .client-info .image{
+       padding-left: 10px;
+    }
+   
+   
+}
+
+
+
